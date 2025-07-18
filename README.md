@@ -36,7 +36,7 @@
 
 ```bash
 git clone [proje-repository-url]
-cd karar-kutusu
+cd karar-kutusu-app
 ```
 
 ### Adım 2: Bağımlılıkları Yükleyin
