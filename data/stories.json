@@ -1,0 +1,1058 @@
+{
+  "stories": [
+    {
+      "id": "mystic-forest",
+      "title": "Gizemli Orman",
+      "description": "Genç bir maceracı, her seçimin kaderini şekillendirdiği büyülü bir orman keşfeder.",
+      "author": "Elena Hikayeci",
+      "coverImage": "https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg",
+      "estimatedReadTime": 25,
+      "chapters": [
+        {
+          "id": "start",
+          "title": "Büyülü Yol",
+          "content": "Gizemli bir ormanın kenarında duruyorsun, eski ağaçları rüzgarda sırlar fısıldıyor. Önündeki yol ikiye ayrılıyor: biri altın ışıkla yıkanmış parlayan bir koruya, diğeri ise dallar arasında tuhaf mavi alevlerin dans ettiği gölgeli derinliklere iniyor.",
+          "choices": [
+            {
+              "id": "light-path",
+              "text": "Altın ışığı takip et",
+              "nextChapterId": "golden-grove",
+              "popularity": 75
+            },
+            {
+              "id": "shadow-path",
+              "text": "Gölgelere doğru ilerle",
+              "nextChapterId": "shadow-realm",
+              "popularity": 25
+            }
+          ]
+        },
+        {
+          "id": "golden-grove",
+          "title": "Koruyucunun Sınavı",
+          "content": "Altın ışık seni muhteşem bir tek boynuzlu atın nöbet tuttuğu bir açıklığa götürüyor. Gümüş boynuzu parlarken melodik bir sesle konuşuyor: 'Yolcu, sana bir seçim sunuyorum. Kutsamımı kabul et ve herhangi bir yarayı iyileştirme gücünü kazan, ya da boynuzumu al ve hayal gücünün ötesinde büyü kullan.'",
+          "choices": [
+            {
+              "id": "accept-blessing",
+              "text": "İyileştirme kutsamasını kabul et",
+              "nextChapterId": "healing-journey",
+              "popularity": 60
+            },
+            {
+              "id": "take-horn",
+              "text": "Büyülü boynuzu al",
+              "nextChapterId": "magic-trial",
+              "popularity": 40
+            }
+          ]
+        },
+        {
+          "id": "shadow-realm",
+          "title": "Karanlık Seçim",
+          "content": "Ormanda daha derine yürürken gölgeler seni kucaklıyor. Aniden karanlıktan bir figür çıkıyor - kırmızı gözlü kapüşonlu bir büyücü. 'Güç arıyorsun, değil mi?' diye tıslar. 'Sana gölgeler üzerinde hakimiyet verebilirim, ama önce karanlık bir ritüeli tamamlayarak değerini kanıtlamalısın.'",
+          "choices": [
+            {
+              "id": "accept-ritual",
+              "text": "Ritüeli kabul et",
+              "nextChapterId": "dark-trial",
+              "popularity": 30
+            },
+            {
+              "id": "refuse-ritual",
+              "text": "Reddet ve kaç",
+              "nextChapterId": "escape-path",
+              "popularity": 70
+            }
+          ]
+        },
+        {
+          "id": "healing-journey",
+          "title": "İlk İyileştirme",
+          "content": "Tek boynuzlu atın kutsaması seninle birlikte, yolunda yaralı bir köy buluyorsun. Halk hastalık ve yaralanmalarla boğuşuyor. Büyük bir ihtiyar yaklaşıyor: 'Lütfen yardım et, büyücü! Köyümüzün yarısı ölüyor ama bazıları senin büyülerinin karanlık olduğunu düşünüyor ve sana güvenmiyor.'",
+          "choices": [
+            {
+              "id": "heal-all",
+              "text": "Herkesi iyileştirmeye çalış",
+              "nextChapterId": "exhaustion-choice",
+              "popularity": 65
+            },
+            {
+              "id": "selective-healing",
+              "text": "Sadece sana güvenenleri iyileştir",
+              "nextChapterId": "wisdom-test",
+              "popularity": 35
+            }
+          ]
+        },
+        {
+          "id": "magic-trial",
+          "title": "Büyünün Bedeli",
+          "content": "Tek boynuzlu atın boynuzu elinde parlıyor, ancak gücü kontrol etmek zorlaşıyor. Aniden ormanda büyük bir yangın başlıyor ve alevler hızla yayılıyor. Büyünle yangını durdurabileceğini biliyorsun, ama bu çok gücünü tüketebilir. Alternatif olarak, sadece güvenli bir geçit açabilirsin.",
+          "choices": [
+            {
+              "id": "stop-fire",
+              "text": "Tüm ormanı yangından kurtar",
+              "nextChapterId": "power-test",
+              "popularity": 55
+            },
+            {
+              "id": "safe-passage",
+              "text": "Sadece güvenli bir kaçış yolu aç",
+              "nextChapterId": "conservation-path",
+              "popularity": 45
+            }
+          ]
+        },
+        {
+          "id": "dark-trial",
+          "title": "Karanlığın Çağrısı",
+          "content": "Karanlık ritüel seni gölgelerin derinliklerine götürüyor. Büyücü sana bir kehanetin parçalarını gösteriyor: 'Üç karanlık görevi tamamlamalısın. İlki: Masumların gücünü çalmak. İkincisi: Eski bir dostunu ihanet etmek. Üçüncüsü ise... bunu henüz görmek için çok erken.'",
+          "choices": [
+            {
+              "id": "first-task",
+              "text": "İlk görevi kabul et",
+              "nextChapterId": "corruption-path",
+              "popularity": 25
+            },
+            {
+              "id": "resist-darkness",
+              "text": "Karanlığa dirensen ve kendi yolunu ara",
+              "nextChapterId": "resistance-path",
+              "popularity": 75
+            }
+          ]
+        },
+        {
+          "id": "escape-path",
+          "title": "Doğanın Sınavı",
+          "content": "Karanlık büyücüden kaçarken ormanda kayboluyorsun. Eski ağaçlar seninle konuşmaya başlıyor: 'Genç yolcu, büyücüden kaçtın ama orman hala seni sınıyor. Kararlılığın ve bilgeliğin gerçek mi? Önünde iki deneme var: cesaretin ya da sabrın.'",
+          "choices": [
+            {
+              "id": "courage-trial",
+              "text": "Cesaret sınavını seç",
+              "nextChapterId": "beast-encounter",
+              "popularity": 60
+            },
+            {
+              "id": "patience-trial",
+              "text": "Sabır sınavını seç",
+              "nextChapterId": "meditation-path",
+              "popularity": 40
+            }
+          ]
+        },
+        {
+          "id": "exhaustion-choice",
+          "title": "Gücün Sınırları",
+          "content": "Herkesi iyileştirmeye çalışırken gücün tükeniyor ve bayılıyorsun. Uyanığında köylüler seni koruyorlar. 'Bizim için çok fazla fedakarlık yaptın,' diyor köy büyüğü. 'Ama yakındaki şehirde büyük bir salgın var. Gitmelisin ama önce dinlenmelisin.'",
+          "choices": [
+            {
+              "id": "rest-first",
+              "text": "Önce dinlen, sonra şehre git",
+              "nextChapterId": "healer-master-ending",
+              "popularity": 70
+            },
+            {
+              "id": "immediate-help",
+              "text": "Hemen şehre doğru yola çık",
+              "nextChapterId": "martyr-ending",
+              "popularity": 30
+            }
+          ]
+        },
+        {
+          "id": "wisdom-test",
+          "title": "Seçici İyileştirme",
+          "content": "Sadece sana güvenenleri iyileştirirken, diğerleri acı çekmeye devam ediyor. İyileştirdiklerin sana minnettar, ama köyde bölünme oluşuyor. Bir genç yaklaşıyor: 'Sihirci, babam sana güvenmiyordu ama şimdi ölüyor. Onu da iyileştirir misin?'",
+          "choices": [
+            {
+              "id": "change-mind",
+              "text": "Fikrini değiştir ve babayı iyileştir",
+              "nextChapterId": "compassion-ending",
+              "popularity": 80
+            },
+            {
+              "id": "stick-principle",
+              "text": "İlkelerine bağlı kal",
+              "nextChapterId": "stern-healer-ending",
+              "popularity": 20
+            }
+          ]
+        },
+        {
+          "id": "power-test",
+          "title": "Büyük Fedakarlık",
+          "content": "Tüm ormanı yangından kurtardıktan sonra gücün büyük ölçüde azalıyor. Ancak ormanın ruhu sana görünüyor: 'Fedakarlığın seni daha güçlü yaptı. Sana son bir seçim: kalan gücünle tek bir kişiyi sonsuz güçle donatabilirim ya da seni dünyevi güçlerden arındırıp ruhsal bir varlığa dönüştürebilirim.'",
+          "choices": [
+            {
+              "id": "empower-other",
+              "text": "Başka birine güç ver",
+              "nextChapterId": "mentor-ending",
+              "popularity": 45
+            },
+            {
+              "id": "spiritual-transformation",
+              "text": "Ruhsal dönüşümü kabul et",
+              "nextChapterId": "guardian-spirit-ending",
+              "popularity": 55
+            }
+          ]
+        },
+        {
+          "id": "conservation-path",
+          "title": "Akıllıca Kullanım",
+          "content": "Gücünü akıllıca kullanarak sadece gerekli olanı yapıyorsun. Ormandan çıktığında güçlü ve bilge bir büyücü olarak ün yapıyorsun. Krallık sana iki görev sunuyor: koruyucu büyücü olarak kalede hizmet etmek ya da serbest bir macera arayan olarak diyarları gezmek.",
+          "choices": [
+            {
+              "id": "court-wizard",
+              "text": "Saray büyücüsü ol",
+              "nextChapterId": "royal-wizard-ending",
+              "popularity": 35
+            },
+            {
+              "id": "free-adventurer",
+              "text": "Özgür maceracı kal",
+              "nextChapterId": "wandering-mage-ending",
+              "popularity": 65
+            }
+          ]
+        },
+        {
+          "id": "corruption-path",
+          "title": "Karanlığın Tutkusu",
+          "content": "İlk karanlık görevi kabul edince masumların gücünü çalmaya başlıyorsun. Her çalındığında güçleniyorsun ama vicdanın seni uyarıyor. Büyücü memnun: 'Mükemmel! Şimdi ikinci görev: eski bir dostunu bul ve ona ihanet et. Ancak bunun geri dönüşü olmayacak.'",
+          "choices": [
+            {
+              "id": "complete-betrayal",
+              "text": "İhaneti tamamla",
+              "nextChapterId": "dark-lord-ending",
+              "popularity": 15
+            },
+            {
+              "id": "last-chance-redemption",
+              "text": "Son anda pişman ol ve karşı dur",
+              "nextChapterId": "redemption-ending",
+              "popularity": 85
+            }
+          ]
+        },
+        {
+          "id": "resistance-path",
+          "title": "İç Mücadele",
+          "content": "Karanlığa direnmene rağmen, onun gücü seni etkiliyor. Kendi yolunu ararken hem ışık hem karanlık büyüleri öğreniyorsun. Bu dengeyi korumak zor ve tehlikeli. Sonunda iki seçenekle karşılaşıyorsun: dengeyi korumaya devam etmek ya da tamamen ışığa yönelmek.",
+          "choices": [
+            {
+              "id": "maintain-balance",
+              "text": "Dengeyi koru",
+              "nextChapterId": "gray-wizard-ending",
+              "popularity": 40
+            },
+            {
+              "id": "choose-light",
+              "text": "Tamamen ışığa yönel",
+              "nextChapterId": "purified-ending",
+              "popularity": 60
+            }
+          ]
+        },
+        {
+          "id": "beast-encounter",
+          "title": "Korkunç Canavar",
+          "content": "Cesaret sınavında dev bir gölge canavarıyla karşılaşıyorsun. Canavar konuşuyor: 'Cesaretini göster, küçük insan. Benimle savaş ya da korkunla yüzleş. Ama bil ki, gerçek cesaret bazen savaşmamakta yatar.'",
+          "choices": [
+            {
+              "id": "fight-beast",
+              "text": "Canavarla savaş",
+              "nextChapterId": "warrior-spirit-ending",
+              "popularity": 55
+            },
+            {
+              "id": "understand-fear",
+              "text": "Korkunu anlamaya çalış",
+              "nextChapterId": "wise-courage-ending",
+              "popularity": 45
+            }
+          ]
+        },
+        {
+          "id": "meditation-path",
+          "title": "Derin Düşünce",
+          "content": "Sabır sınavında günlerce ormanda meditasyon yapıyorsun. Zamanla doğanın seslerini duymaya başlıyorsun. Ağaçlar, hayvanlar ve rüzgar sana dünyevi bilgilerin ötesinde sırlar öğretiyor. Sonunda sana son bir seçim sunuyorlar: bu bilgiyle dünyaya dön ya da ormanda kalmaya devam et.",
+          "choices": [
+            {
+              "id": "return-world",
+              "text": "Dünyaya bilgiyle dön",
+              "nextChapterId": "nature-sage-ending",
+              "popularity": 70
+            },
+            {
+              "id": "stay-forest",
+              "text": "Ormanda kalmaya devam et",
+              "nextChapterId": "forest-guardian-ending",
+              "popularity": 30
+            }
+          ]
+        },
+        {
+          "id": "healer-master-ending",
+          "title": "Kutsal Şifacı Ustası",
+          "content": "Dinlendikten sonra şehirdeki salgını da başarıyla durduruyorsun. Ün şöhretin tüm krallıklara yayılıyor ve en güçlü şifacı olarak tanınıyorsun. Bir şifa akademisi kuruyor, bilgini gelecek nesillere aktarıyorsun. Yaşamın boyunca sayısız canı kurtarırken, gerçek gücün sabır ve bilgelikte yattığını anlıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "martyr-ending",
+          "title": "Fedakar Şehit",
+          "content": "Dinlenmeden şehre gitmeye karar verdiğinde güçsüzlüğün felakete yol açıyor. Şehirdeki salgını durdururken tüm gücünü tüketiyorsun ve hayatını kaybediyorsun. Ancak ölümün boşuna değil - binlerce kişi yaşıyor ve sen efsanevi bir şehit olarak anılıyorsun. Başkalarının yaşaması için ölen aziz şifacı.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "bittersweet"
+        },
+        {
+          "id": "compassion-ending",
+          "title": "Merhametli Şifacı",
+          "content": "Fikrini değiştirip herkesi iyileştirmene karar veriyorsun. Bu fedakarlığın seni daha güçlü yapıyor ve tüm diyarlarda merhamet timsali olarak tanınıyorsun. İlkelerin önemli olsa da, merhametin onlardan daha büyük olduğunu öğreniyorsun. Uzun ve mutlu bir yaşam sürerken, sevgin sayesinde dünya daha iyi bir yer oluyor.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "stern-healer-ending",
+          "title": "Katı İlkeli Şifacı",
+          "content": "İlkelerine bağlı kalıyorsun ve sadece sana güvenenleri iyileştirmeye devam ediyorsun. Bu seni güçlü ama yalnız bir şifacı yapıyor. Etkili olsan da, merhametini kısıtladığın için bazı fırsatları kaçırıyorsun. Yaşamın boyunca başarılı ama biraz soğuk bir şifacı olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "mentor-ending",
+          "title": "Büyük Mentor",
+          "content": "Kalan gücünü genç bir maceracıya vermeyi seçiyorsun. Bu öğrencin daha büyük bir şey başarabiliyorsun. Sen güçsüz kalsan da, bilgeliğin ve rehberliğin sayesinde öğrencin muazzam başarılar elde ediyor. Gerçek anlamda bir mentor olarak, başkalarını güçlendirmek için kendi gücünden vazgeçmenin değerini anlıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "guardian-spirit-ending",
+          "title": "Orman Ruhu",
+          "content": "Ruhsal dönüşümü kabul edince fiziksel formunu kaybediyor ama ormanın koruyucu ruhu oluyorsun. Artık sonsuz bilgeliğe sahipsin ve gelecekteki maceracılara rehberlik ediyorsun. Ölümsüzlük kazanırken, doğayla tam bir uyum içinde yaşıyorsun. Bedeniniz kaybolsa da, ruhun sonsuza dek yaşayacak.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "transcendent"
+        },
+        {
+          "id": "royal-wizard-ending",
+          "title": "Kraliyet Büyücüsü",
+          "content": "Saray büyücüsü olarak krallığa hizmet ediyorsun. Güvenli ve prestijli bir yaşam sürüyor, büyülü araştırmalar yapıyor ve krallığı koruyorsun. Maceraları özlesen de, istikrarlı yaşamın sana bilgelik kazandırıyor. Yaşadığın sürece krallığın en değerli danışmanlarından biri olarak kalıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "wandering-mage-ending",
+          "title": "Özgür Büyücü",
+          "content": "Özgür bir maceracı olarak kalmayı seçiyorsun. Diyarları geziyor, yeni büyüler öğreniyor ve ihtiyacı olan herkese yardım ediyorsun. Maceralı ama belirsiz bir yaşam sürüyorsun. Özgürlüğün bedeli güvenlik olsa da, keşfettiğin yerler ve yaşadığın tecrübeler hayatını zenginleştiriyor.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "dark-lord-ending",
+          "title": "Karanlık Efendi",
+          "content": "İhaneti tamamlayınca tamamen karanlığa dönüşüyorsun. Güçlü bir karanlık lord olarak diyarları korkutuyor ve gölge yaratıklarına komuta ediyorsun. Muazzam güce sahip olsan da, eskiden sevdiğin her şeyi kaybediyorsun. Güçlü ama yalnız, korkulan ama sevilmeyen bir varlık oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "bad"
+        },
+        {
+          "id": "redemption-ending",
+          "title": "Kurtuluş Yolu",
+          "content": "Son anda pişmanlık duyup karanlık büyücüye karşı duruyorsun. Zor bir mücadeleden sonra onu yeniyorsun. Geçmişindeki hatalar seni daha güçlü ve bilge yapıyor. Artık hem ışığı hem karanlığı anladığın için, başkalarını aynı hatalardan koruyabiliyorsun. İkinci şansını değerlendirip hayırlı işler yapıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "redemption"
+        },
+        {
+          "id": "gray-wizard-ending",
+          "title": "Gri Büyücü",
+          "content": "Hem ışık hem karanlık arasındaki dengeyi korumayı başarıyorsun. Bu seni eşsiz güçlere sahip ama anlaşılması zor bir büyücü yapıyor. Ne tamamen iyi ne de tamamen kötü olan bu yol, sana büyük bilgelik veriyor. Nadir ama çok güçlü bir varlık olarak, dengeyi korumak için yaşıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "purified-ending",
+          "title": "Arınmış Ruh",
+          "content": "Karanlıkla mücadeleden sonra tamamen ışığa yöneliyorsun. Bu arınma süreci seni çok güçlü ve saf bir büyücü yapıyor. Geçmişteki karanlık tecrübeler sana büyük empati kazandırıyor. Başkalarına yardım ederken, herkesin kurtulabileceğine olan inancın umut kaynağı oluyor.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "warrior-spirit-ending",
+          "title": "Savaşçı Ruhu",
+          "content": "Canavarla cesurca savaşarak onu yeniyorsun. Bu zafer sana savaşçı ruhunu kazandırıyor. Artık korku nedir bilmeyen, güçlü bir savaşçı oluyorsun. Ormanı terk ederken, cesaretinle ünlü bir kahraman olarak diyarları korumaya devam ediyorsun. Adın efsanelerde yaşayacak.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "wise-courage-ending",
+          "title": "Bilge Cesaret",
+          "content": "Korkunu anlamaya çalışırken canavarın aslında ormana zarar verenlerden korunmaya çalıştığını keşfediyorsun. Onunla barış yaparak farklı bir cesaret türü sergiliyorsun. Bu deneyim sana gerçek cesaretin her zaman savaşmak olmadığını öğretiyor. Barışçıl ama kararlı bir kahraman oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "nature-sage-ending",
+          "title": "Doğa Bilgini",
+          "content": "Ormandaki bilgiyle dünyaya dönerek doğanın sırlarını insanlara öğretiyorsun. Bitki ve hayvan dilleri bilen, doğal dengeyi koruyan bir bilge oluyorsun. İnsanlarla doğa arasında köprü kurarak daha uyumlu bir dünya yaratmaya yardım ediyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "forest-guardian-ending",
+          "title": "Orman Bekçisi",
+          "content": "Ormanda kalmaya karar vererek onun ebedi bekçisi oluyorsun. İnsanlarla bağlantını koparsan da, doğayla derin bir birlik kuruyorsun. Gelecekteki nesiller için ormanı koruyarak, doğal dengenin sürmesini sağlıyorsun. Yalnız ama huzurlu bir yaşam sürüyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "space-odyssey",
+      "title": "Yıldız Yolculuğu",
+      "description": "Bilinen uzayın kenarında bir yıldız gemisine komuta et, her karar hayatta kalma ya da yıkım anlamına gelebilir.",
+      "author": "Kaptan Rex Yıldız",
+      "coverImage": "https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg",
+      "estimatedReadTime": 30,
+      "chapters": [
+        {
+          "id": "start",
+          "title": "Acil Durum Protokolü",
+          "content": "Geminin sensörleri yüksek hızda yaklaşan kimliği belirsiz bir gemi tespit ederken köprü boyunca alarmlar çalıyor. İletişim subayın rapor veriyor: 'Kaptan, çağrılarımıza yanıt vermiyorlar. Gemi tasarımları veri tabanlarımızdaki hiçbir şeye benzemiyor.' Taktik subayı kasvetli bir şekilde ekliyor: 'Altmış saniye içinde silah menzilinde olacaklar.'",
+          "choices": [
+            {
+              "id": "defensive",
+              "text": "Kalkanları kaldır ve savunma hazırla",
+              "nextChapterId": "standoff",
+              "popularity": 65
+            },
+            {
+              "id": "diplomatic",
+              "text": "Barışçıl temas kurmaya çalış",
+              "nextChapterId": "first-contact",
+              "popularity": 35
+            }
+          ]
+        },
+        {
+          "id": "standoff",
+          "title": "Gergin Müzakereler",
+          "content": "Savunma duruşun işe yarıyor ve uzaylı gemi silah menzilinin hemen dışında duruyor. Köpründe holografik bir figür beliriyor - ışıltılı tenli, uzun, ruhani bir varlık. 'İhtiyatın akıllıca, Kaptan,' diyor telepatik olarak. 'Biz bu sektörün koruyucuları Gökselleriz. Bu bölgeden geçen herkesi sınarız.'",
+          "choices": [
+            {
+              "id": "accept-test",
+              "text": "Sınavlarını kabul et",
+              "nextChapterId": "trial-preparation",
+              "popularity": 55
+            },
+            {
+              "id": "request-passage",
+              "text": "Güvenli geçiş talep et",
+              "nextChapterId": "negotiation-path",
+              "popularity": 45
+            }
+          ]
+        },
+        {
+          "id": "first-contact",
+          "title": "Riskli Kumar",
+          "content": "Barışçıl yaklaşımın uzaylıları hazırlıksız yakalıyor. Gemileri aniden dengesizleşiyor ve onların da senden korktuğu kadar sen de onlardan korktuğunu fark ediyorsun. Uzaylı kaptan ekranda beliriyor, dört gözü şaşkınlıkla açık. 'Sen... sen barışı mı seçtin? Çoğu tür önce saldırır sonra soru sorar. Belki de türün için umut vardır.'",
+          "choices": [
+            {
+              "id": "offer-help",
+              "text": "Gemileri için yardım teklif et",
+              "nextChapterId": "cooperation-start",
+              "popularity": 80
+            },
+            {
+              "id": "continue-mission",
+              "text": "Orijinal görevine devam et",
+              "nextChapterId": "mission-focus",
+              "popularity": 20
+            }
+          ]
+        },
+        {
+          "id": "trial-preparation",
+          "title": "Sınavın Hazırlığı",
+          "content": "Göksel açıklıyor: 'Sınavımız üç aşamadan oluşuyor. İlki: bilgelik sınavı, ikincisi: cesaret sınavı, üçüncüsü: fedakarlık sınavı. Her aşamada farklı seçimler yapacaksın. Ancak dikkat et, her sınav bir öncekinden daha zor.' Mürettebatın endişeli görünüyor.",
+          "choices": [
+            {
+              "id": "confidence",
+              "text": "Güvenle sınavlara başla",
+              "nextChapterId": "wisdom-trial",
+              "popularity": 60
+            },
+            {
+              "id": "cautious-approach",
+              "text": "Daha fazla bilgi iste",
+              "nextChapterId": "detailed-briefing",
+              "popularity": 40
+            }
+          ]
+        },
+        {
+          "id": "negotiation-path",
+          "title": "Diplomatik Manevralar",
+          "content": "Göksel düşünceli görünüyor: 'Geçiş için pazarlık yapmak istiyorsun. İlginç. Çoğu tür ya kaçar ya da savaşır. Size bir teklif: geminizdeki teknolojik bir keşif karşılığında geçiş. Ya da mürettebatınızdan birini büyük öğrenime gönderin.'",
+          "choices": [
+            {
+              "id": "share-tech",
+              "text": "Teknoloji paylaş",
+              "nextChapterId": "tech-exchange",
+              "popularity": 35
+            },
+            {
+              "id": "send-crew",
+              "text": "Mürettebattan birini gönder",
+              "nextChapterId": "crew-exchange",
+              "popularity": 65
+            }
+          ]
+        },
+        {
+          "id": "cooperation-start",
+          "title": "İttifakın Temelleri",
+          "content": "Uzaylı gemilerini tamir etmeye yardım ederken, onların gelişmiş teknolojilerini öğreniyorsun. Kaptan sana açıklıyor: 'Bizim türümüz Zephyrians, uzun süredir galakside barış arıyor. Ama şimdi büyük bir tehdit var - Void Devourers adlı bir ırk tüm yaşamı tüketiyor.'",
+          "choices": [
+            {
+              "id": "fight-threat",
+              "text": "Tehditle savaşmayı teklif et",
+              "nextChapterId": "war-council",
+              "popularity": 70
+            },
+            {
+              "id": "seek-peaceful-solution",
+              "text": "Barışçıl çözüm ara",
+              "nextChapterId": "diplomatic-mission",
+              "popularity": 30
+            }
+          ]
+        },
+        {
+          "id": "mission-focus",
+          "title": "Görev Odaklı",
+          "content": "Orijinal görevine odaklanmaya karar veriyorsun. Uzaylılar anlayışla karşılıyor ama hayal kırıklığına uğruyor. 'Anlıyoruz, göreviniz önemli. Ama bilin ki, bu sektörde büyük tehlikeler var. Size uyarı olarak şunu söyleyelim: Omega Nebulası'ndan kaçının.'",
+          "choices": [
+            {
+              "id": "heed-warning",
+              "text": "Uyarıyı dinle ve alternatif rota al",
+              "nextChapterId": "safe-route",
+              "popularity": 75
+            },
+            {
+              "id": "investigate-nebula",
+              "text": "Nebula'yı araştır",
+              "nextChapterId": "nebula-mystery",
+              "popularity": 25
+            }
+          ]
+        },
+        {
+          "id": "wisdom-trial",
+          "title": "Bilgelik Sınavı",
+          "content": "İlk sınav başlıyor. Göksel sana imkansız bir ikilem sunuyor: 'Geminde 1000 kişi var. Karşında iki buton: biri gemini kurtarır ama bilinmeyen başka bir gemide 500 kişi ölür. Diğeri senin gemini riske atar ama diğer gemiyi kesin kurtarır. Hangisini seçersin?'",
+          "choices": [
+            {
+              "id": "save-own-crew",
+              "text": "Kendi mürettebatını kurtar",
+              "nextChapterId": "pragmatic-path",
+              "popularity": 40
+            },
+            {
+              "id": "save-strangers",
+              "text": "Bilinmeyen gemiyi kurtar",
+              "nextChapterId": "sacrifice-path",
+              "popularity": 60
+            }
+          ]
+        },
+        {
+          "id": "detailed-briefing",
+          "title": "Detaylı Bilgilendirme",
+          "content": "Göksel daha fazla bilgi veriyor: 'Sınavlar yaşamsal değil ama ruhunuzu test ediyor. Geçenler galaksinin gizli bilgilerine erişim kazanır. Kalayanlar sadece güvenle geçer. Ayrıca sınavları reddedebilir ve alternative görevler alabilirsiniz.'",
+          "choices": [
+            {
+              "id": "take-trials",
+              "text": "Yine de sınavları al",
+              "nextChapterId": "wisdom-trial",
+              "popularity": 55
+            },
+            {
+              "id": "alternative-mission",
+              "text": "Alternatif görevleri sor",
+              "nextChapterId": "escort-mission",
+              "popularity": 45
+            }
+          ]
+        },
+        {
+          "id": "tech-exchange",
+          "title": "Teknoloji Değişimi",
+          "content": "Geminizdeki gelişmiş sensör teknolojisini paylaştığınızda, Gökseller size uzay-zaman katlama teknolojisinin temellerini veriyor. Bu değişim her iki taraf için de faydalı oluyor. 'Artık ikiniz de daha güçlüsünüz,' diyor Göksel lideri. 'Ama bu teknoloji yanlış ellere geçmemeli.'",
+          "choices": [
+            {
+              "id": "guard-technology",
+              "text": "Teknolojiyi saklamaya söz ver",
+              "nextChapterId": "tech-guardian-ending",
+              "popularity": 80
+            },
+            {
+              "id": "share-freely",
+              "text": "Tüm galaksiye paylaşmayı teklif et",
+              "nextChapterId": "open-source-ending",
+              "popularity": 20
+            }
+          ]
+        },
+        {
+          "id": "crew-exchange",
+          "title": "Mürettebat Değişimi",
+          "content": "Mürettebatından en yetenekli bilim insanı Dr. Chen gönüllü oluyor. Göksel onu alırken size de genç bir Göksel diplomat veriyor. 'Dr. Chen bizden çok şey öğrenecek, Kael de sizin kültürünüzü öğrenecek. Bu değişim her iki türümüzü de ilerletecek.'",
+          "choices": [
+            {
+              "id": "long-term-exchange",
+              "text": "Uzun vadeli değişim programı teklif et",
+              "nextChapterId": "cultural-bridge-ending",
+              "popularity": 75
+            },
+            {
+              "id": "temporary-arrangement",
+              "text": "Geçici anlaşma yap",
+              "nextChapterId": "limited-cooperation-ending",
+              "popularity": 25
+            }
+          ]
+        },
+        {
+          "id": "war-council",
+          "title": "Savaş Konseyi",
+          "content": "Void Devourers'a karşı büyük bir ittifak kurmaya karar veriyorsunuz. Zephyrian'lar size güçlü silahlar ve stratejik bilgi veriyor. 'Bu savaş zor olacak,' diyor kaptan. 'Ama birlikte galaksinin kaderini değiştirebiliriz. Son saldırıda hangi stratejiyi kullanacağız?'",
+          "choices": [
+            {
+              "id": "direct-assault",
+              "text": "Doğrudan saldırı",
+              "nextChapterId": "victory-cost-ending",
+              "popularity": 45
+            },
+            {
+              "id": "stealth-sabotage",
+              "text": "Gizli sabotaj",
+              "nextChapterId": "shadow-victory-ending",
+              "popularity": 55
+            }
+          ]
+        },
+        {
+          "id": "diplomatic-mission",
+          "title": "Barış Elçiliği",
+          "content": "Void Devourers ile iletişim kurma girişimin şaşırtıcı derecede başarılı oluyor. Onların aslında kendi dünyalarının yok olmasından kaçan umutsuz mülteciler olduğunu keşfediyorsun. 'Sadece yaşamak istiyoruz,' diyor liderleri. 'Ama başka yolu bilmiyoruz.'",
+          "choices": [
+            {
+              "id": "find-new-home",
+              "text": "Onlara yeni bir yuva bulmaya yardım et",
+              "nextChapterId": "peacemaker-ending",
+              "popularity": 70
+            },
+            {
+              "id": "teach-sustainability",
+              "text": "Sürdürülebilir yaşamı öğret",
+              "nextChapterId": "teacher-ending",
+              "popularity": 30
+            }
+          ]
+        },
+        {
+          "id": "safe-route",
+          "title": "Güvenli Yol",
+          "content": "Alternatif rota alarak güvenle seyahat ediyorsun. Görev süren uzuyor ama mürettebatın güvende. Yolda başka bir gemiyle karşılaşıyorsun - haydutlar tarafından saldırıya uğramış bir tüccar gemisi. 'Yardım edin!' diye çağırıyorlar. Ama bu seni daha da geciktirebilir.",
+          "choices": [
+            {
+              "id": "help-merchants",
+              "text": "Tüccarlara yardım et",
+              "nextChapterId": "hero-captain-ending",
+              "popularity": 85
+            },
+            {
+              "id": "maintain-schedule",
+              "text": "Programında kal",
+              "nextChapterId": "dutiful-captain-ending",
+              "popularity": 15
+            }
+          ]
+        },
+        {
+          "id": "nebula-mystery",
+          "title": "Nebula'nın Sırrı",
+          "content": "Omega Nebulası'nı araştırmaya karar veriyorsun. İçeride enerji anomalileri buluyorsun - bunlar zamanda seyahat edebilmek için kapılar açabiliyor. Ama bu teknoloji çok tehlikeli. 'Kaptan,' diyor bilim subayın, 'bu teknolojiyle geçmişi değiştirebiliriz ama sonuçları öngöremeyiz.'",
+          "choices": [
+            {
+              "id": "use-time-travel",
+              "text": "Zaman seyahati teknolojisini kullan",
+              "nextChapterId": "time-paradox-ending",
+              "popularity": 30
+            },
+            {
+              "id": "destroy-technology",
+              "text": "Teknolojiyi yok et",
+              "nextChapterId": "responsible-guardian-ending",
+              "popularity": 70
+            }
+          ]
+        },
+        {
+          "id": "pragmatic-path",
+          "title": "Pragmatik Cesaret",
+          "content": "Kendi mürettebatını kurtarma kararın pragmatik ama zor. Göksel onaylamasa da anlayış gösteriyor. 'Liderlik zor kararlar gerektirir. İkinci sınav: karşında iki düşman filosu var. Birini yok etmek zorundasın. Biri teknolojik olarak üstün ama barışçıl, diğeri primitif ama saldırgan.'",
+          "choices": [
+            {
+              "id": "destroy-advanced",
+              "text": "Gelişmiş barışçıl filosu yok et",
+              "nextChapterId": "harsh-realism-path",
+              "popularity": 25
+            },
+            {
+              "id": "destroy-aggressive",
+              "text": "Saldırgan primitif filosu yok et",
+              "nextChapterId": "protective-justice-path",
+              "popularity": 75
+            }
+          ]
+        },
+        {
+          "id": "sacrifice-path",
+          "title": "Fedakarlık Yolu",
+          "content": "Bilinmeyen gemiyi kurtarma kararın Göksel'i etkiledi. 'Gerçek bilgelik bazen fedakarlık gerektirir. İkinci sınav: Size sınırsız güç vereceğim ama bunu sadece başkalarını korumak için kullanabileceksiniz, kendiniz için asla. Kabul ediyor musunuz?'",
+          "choices": [
+            {
+              "id": "accept-power",
+              "text": "Koşullu gücü kabul et",
+              "nextChapterId": "guardian-power-path",
+              "popularity": 80
+            },
+            {
+              "id": "refuse-power",
+              "text": "Gücü reddet",
+              "nextChapterId": "humble-wisdom-path",
+              "popularity": 20
+            }
+          ]
+        },
+        {
+          "id": "escort-mission",
+          "title": "Eskort Görevi",
+          "content": "Alternatif görev olarak kutsal bir Göksel şifacısını güvenli bir limana eskort etmen isteniyor. Yolculuk sırasında şifacı sana galaksinin gizli tarihi hakkında bilgiler veriyor. 'Çok eski bir savaş vardı,' diyor. 'Ve o savaşın kalıntıları hala galaksimizi etkiliyor.'",
+          "choices": [
+            {
+              "id": "learn-history",
+              "text": "Eski savaş hakkında daha fazla öğren",
+              "nextChapterId": "historian-path",
+              "popularity": 60
+            },
+            {
+              "id": "focus-escort",
+              "text": "Sadece eskort görevine odaklan",
+              "nextChapterId": "professional-escort-ending",
+              "popularity": 40
+            }
+          ]
+        },
+        {
+          "id": "harsh-realism-path",
+          "title": "Sert Gerçekçilik",
+          "content": "Gelişmiş barışçıl filosu yok etme kararın Göksel'i şaşırtıyor. 'Beklenmeyen bir seçim. Bazen gerçeklik acımasız kararlar gerektirir. Son sınav: Geminin yarısını kurtarmak için diğer yarısını feda etmen gerekiyor. Hangilerini seçersin?'",
+          "choices": [
+            {
+              "id": "save-essential",
+              "text": "Gerekli personeli kurtar",
+              "nextChapterId": "cold-efficiency-ending",
+              "popularity": 35
+            },
+            {
+              "id": "random-selection",
+              "text": "Rastgele seçim yap",
+              "nextChapterId": "fair-but-harsh-ending",
+              "popularity": 65
+            }
+          ]
+        },
+        {
+          "id": "protective-justice-path",
+          "title": "Koruyucu Adalet",
+          "content": "Saldırgan filosu yok etme kararın mantıklı. Göksel memnun: 'Adaleti koruyacak güç gösterdin. Son sınav: Büyük bir felaketten önce iki gruptan birini kurtarabilirsin. Biri kendi türünden 1000 kişi, diğeri farklı türlerden 1500 kişi.'",
+          "choices": [
+            {
+              "id": "save-own-species",
+              "text": "Kendi türünü kurtar",
+              "nextChapterId": "species-loyalty-ending",
+              "popularity": 40
+            },
+            {
+              "id": "save-more-lives",
+              "text": "Daha fazla yaşamı kurtar",
+              "nextChapterId": "universal-protector-ending",
+              "popularity": 60
+            }
+          ]
+        },
+        {
+          "id": "guardian-power-path",
+          "title": "Koruyucu Güç",
+          "content": "Koşullu gücü kabul ettin. Göksel sana muazzam güçler veriyor. 'Artık bir galaksi koruyucususun. Son sınav: Bu gücü kullanarak kendi türünü galaksinin efendisi yapabilirsin ama başka türleri köle edersin. Ya da tüm türlerin eşit olduğu bir barış yaratabilirsin.'",
+          "choices": [
+            {
+              "id": "species-dominance",
+              "text": "Türün için üstünlük",
+              "nextChapterId": "benevolent-emperor-ending",
+              "popularity": 20
+            },
+            {
+              "id": "universal-equality",
+              "text": "Evrensel eşitlik",
+              "nextChapterId": "cosmic-peacemaker-ending",
+              "popularity": 80
+            }
+          ]
+        },
+        {
+          "id": "humble-wisdom-path",
+          "title": "Alçakgönüllü Bilgelik",
+          "content": "Gücü reddetmen Göksel'i büyük ölçüde etkiliyor. 'Gerçek bilgelik gücü reddetmeyi bilmektir. Sana başka bir hediye: galaksinin en büyük bilgi arşivine erişim. Bu bilgiyle ne yapacaksın?'",
+          "choices": [
+            {
+              "id": "share-knowledge",
+              "text": "Bilgiyi herkesle paylaş",
+              "nextChapterId": "knowledge-liberator-ending",
+              "popularity": 75
+            },
+            {
+              "id": "selective-sharing",
+              "text": "Bilgiyi seçici olarak paylaş",
+              "nextChapterId": "wise-curator-ending",
+              "popularity": 25
+            }
+          ]
+        },
+        {
+          "id": "historian-path",
+          "title": "Tarihçi Yolu",
+          "content": "Eski savaş hakkında öğrendiklerin galakside hala aktif olan eski silahların varlığını ortaya çıkarıyor. Şifacı sana önemli bir seçim sunuyor: 'Bu silahları yok edebiliriz ama bu büyük enerji harcar. Ya da onları güvenli bir yerde saklayabiliriz.'",
+          "choices": [
+            {
+              "id": "destroy-weapons",
+              "text": "Eski silahları yok et",
+              "nextChapterId": "weapons-destroyer-ending",
+              "popularity": 70
+            },
+            {
+              "id": "hide-weapons",
+              "text": "Silahları güvenli bir yerde sakla",
+              "nextChapterId": "secret-guardian-ending",
+              "popularity": 30
+            }
+          ]
+        },
+        {
+          "id": "tech-guardian-ending",
+          "title": "Teknoloji Koruyucusu",
+          "content": "Paylaştığın teknolojiyi saklamaya söz verince galaksinin güvenilir teknoloji koruyucusu oluyorsun. Gelişmiş teknolojileri sadece hak edenlere vererek galakside dengeyi koruyorsun. Sorumluluğun büyük ama etkili bir lider olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "open-source-ending",
+          "title": "Özgür Bilgi Savunucusu",
+          "content": "Tüm teknolojiyi serbestçe paylaşma kararın galakside teknolojik bir devrim başlatıyor. Bu karar bazı tehlikeler doğursa da, genel olarak tüm türler faydalanıyor. Özgür bilgi akışının savunucusu olarak tarihte iz bırakıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "revolutionary"
+        },
+        {
+          "id": "cultural-bridge-ending",
+          "title": "Kültürel Köprü",
+          "content": "Uzun vadeli değişim programın türler arası anlayışta bir devrim yaratıyor. Dr. Chen ve Kael'in çalışmaları iki türün tam entegrasyonuna yol açıyor. Galaksinin en büyük diplomatik başarısını gerçekleştirmiş bir kaptan olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "limited-cooperation-ending",
+          "title": "Sınırlı İşbirliği",
+          "content": "Geçici anlaşman faydalı olsa da sınırlı kalıyor. İki tür arasında mesafeli ama saygılı bir ilişki kuruluyor. Büyük bir dönüşüm yaratmasın da, istikrarlı ve güvenli bir işbirliği sağlıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "victory-cost-ending",
+          "title": "Pahalı Zafer",
+          "content": "Doğrudan saldırı Void Devourers'ı yeniyor ama büyük kayıplar veriyor. Galaksi kurtulsa da, zafer büyük bedeller ödeyerek gelmiş. Savaşı kazanan ama barışı da önemsediğini gösteren bir kahraman olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "bittersweet"
+        },
+        {
+          "id": "shadow-victory-ending",
+          "title": "Gölge Zaferi",
+          "content": "Gizli sabotaj planın mükemmel işliyor ve Void Devourers minimum kayıpla yeniliyor. Stratejik zekanın galaksinin kaderini değiştiriyor. Gölgelerden çalışan ama etkili bir koruyucu olarak efsane oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "peacemaker-ending",
+          "title": "Barış Yaratıcısı",
+          "content": "Void Devourers'a yeni bir yuva bulma konusundaki yardımın galaksi tarihinin en büyük barış anlaşmasına yol açıyor. Savaş yerine anlayışı seçmen tüm türler için yeni bir çağ başlatıyor. Galaksinin en büyük barış elçisi olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "transcendent"
+        },
+        {
+          "id": "teacher-ending",
+          "title": "Bilgi Öğretmeni",
+          "content": "Void Devourers'a sürdürülebilir yaşamı öğretme kararın onları tamamen dönüştürüyor. Artık yıkıcı değil, yaratıcı bir tür oluyorlar. Senin öğrettiklerin sayesinde galakside yeni teknolojiler ve yaşam biçimleri gelişiyor.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "hero-captain-ending",
+          "title": "Kahraman Kaptan",
+          "content": "Tüccarlara yardım etme kararın seni galaksinin en sevilen kaptanlarından biri yapıyor. Görevin gecikse de, yaptığın iyilik tüm galakside duyuluyor. İnsanlık ve cesaretin simgesi olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "dutiful-captain-ending",
+          "title": "Görevine Sadık Kaptan",
+          "content": "Görevini zamanında tamamlıyorsun ama diğer gemiye yardım etmemek seni rahatsız ediyor. Başarılı ama biraz soğuk bir kaptan olarak anılıyorsun. Verimlilik önemli olsa da, bazen insanlığın da gerekli olduğunu anlıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "time-paradox-ending",
+          "title": "Zaman Paradoksu",
+          "content": "Zaman seyahati teknolojisini kullanman beklenmedik sonuçlar doğuruyor. Zamanı değiştirme girişimin paradokslara ve kaos yaratıyor. Güçlü olsan da, bazı teknolojilerin kullanımının sorumluluklarından daha ağır olduğunu acı bir şekilde öğreniyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "bad"
+        },
+        {
+          "id": "responsible-guardian-ending",
+          "title": "Sorumlu Koruyucu",
+          "content": "Tehlikeli zaman teknolojisini yok etme kararın galaksiyi büyük tehlikelerden koruyor. Gücü reddetmen gerçek liderlik gösteriyor. Güçlü teknolojilere karşı sorumlu davranışın örnek teşkil ediyor.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "cold-efficiency-ending",
+          "title": "Soğuk Verimlilik",
+          "content": "Gerekli personeli kurtarma kararın mantıklı ama duygusal olarak zor. Gemini verimli şekilde yönetiyorsun ama mürettebatın sana mesafeli davranıyor. Etkili ama soğuk bir lider olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "fair-but-harsh-ending",
+          "title": "Adil Ama Sert",
+          "content": "Rastgele seçim yapman adil ama acımasız. Bu karar seni daha güçlü ama daha az sevilen bir lider yapıyor. Adalet ve gerçekçilik arasında denge kuran bir kaptan olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "bittersweet"
+        },
+        {
+          "id": "species-loyalty-ending",
+          "title": "Tür Sadakati",
+          "content": "Kendi türünü kurtarman anlaşılabilir ama sınırlı bir bakış açısı gösteriyor. Başarılı bir lider olsan da, daha geniş perspektif kazanamadığın için bazı fırsatları kaçırıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "universal-protector-ending",
+          "title": "Evrensel Koruyucu",
+          "content": "Daha fazla yaşamı kurtarma kararın seni galaksinin gerçek koruyucusu yapıyor. Tür ayrımı gözetmeyen liderliğin tüm galakside örnek alınıyor. Evrensel değerlerin savunucusu olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "transcendent"
+        },
+        {
+          "id": "benevolent-emperor-ending",
+          "title": "Hayırsever İmparator",
+          "content": "Türün için üstünlük seçmen onu galaksinin efendisi yapıyor. İyi niyetli olsan da, bu sistem diğer türler için adil değil. Güçlü ama tartışmalı bir lider olarak tarihte yer alıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "controversial"
+        },
+        {
+          "id": "cosmic-peacemaker-ending",
+          "title": "Kozmik Barış Yaratıcısı",
+          "content": "Evrensel eşitlik seçimin galakside yeni bir altın çağ başlatıyor. Tüm türler arasında gerçek barış ve işbirliği sağlıyorsun. Galaksi tarihinin en büyük lideri olarak sonsuza dek anılacaksın.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "legendary"
+        },
+        {
+          "id": "knowledge-liberator-ending",
+          "title": "Bilgi Özgürleştirici",
+          "content": "Bilgiyi herkesle paylaşman galakside bir aydınlanma çağı başlatıyor. Özgür bilgi akışı sayesinde tüm türler hızla gelişiyor. Bilginin demokratikleştirilmesinin öncüsü olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "revolutionary"
+        },
+        {
+          "id": "wise-curator-ending",
+          "title": "Bilge Koruyucu",
+          "content": "Bilgiyi seçici olarak paylaşman istikrarlı ama yavaş bir gelişim sağlıyor. Sorumlu bir bilgi koruyucusu olarak güvenilir ve saygıdeğer bir lider oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "professional-escort-ending",
+          "title": "Profesyonel Eskort",
+          "content": "Sadece eskort görevine odaklanman görevi başarıyla tamamlamanı sağlıyor. Güvenilir ve profesyonel bir kaptan olarak anılıyorsun. Büyük değişimler yaratmasın da, görevlerini kusursuz yapan bir lider oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        },
+        {
+          "id": "weapons-destroyer-ending",
+          "title": "Silah İmha Edicisi",
+          "content": "Eski silahları yok etme kararın galaksiyi büyük tehlikelerden koruyor. Güçlü silahları yok etme cesaretin barışın korunmasında kritik rol oynuyor. Barışın koruyucusu olarak anılıyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "good"
+        },
+        {
+          "id": "secret-guardian-ending",
+          "title": "Gizli Koruyucu",
+          "content": "Silahları saklama kararın onları yanlış ellere geçmekten koruyor. Gizli bir koruyucu olarak bu tehlikeli bilgiyi güvende tutuyorsun. Gölgelerde çalışan ama önemli bir rolü olan bir figür oluyorsun.",
+          "choices": [],
+          "isEnding": true,
+          "endingType": "neutral"
+        }
+      ]
+    }
+  ]
+}
