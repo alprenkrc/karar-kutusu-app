@@ -50,8 +50,6 @@ yarn install
 ### Adım 3: Uygulamayı Başlatın
 
 ```bash
-npm run dev
-# veya
 npx expo start
 ```
 
