@@ -43,8 +43,6 @@ cd karar-kutusu-app
 
 ```bash
 npm install
-# veya
-yarn install
 ```
 
 ### Adım 3: Uygulamayı Başlatın
